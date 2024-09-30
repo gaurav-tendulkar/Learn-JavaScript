@@ -1,2 +1,3 @@
-this repo learn javascript
+this repo learn javascript.
 Day1
+
