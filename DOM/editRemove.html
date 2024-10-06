@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>edit and remove</title>
+</head>
+<body>
+  <ul class ="language">
+    <li>java</li>
+  </ul>
+</body>
+<script>
+  function addLanguage(lang){
+    // this approch is tree traversing not so optimize 
+   const li =  document.createElement('li');
+   li.innerHTML = `${lang}`
+  document.querySelector('.language').appendChild(li)
+  }
+
+    function addopti (name){
+      // optimize
+      const li =  document.createElement('li')
+      li.appendChild(document.createTextNode(name))
+      document.querySelector('.language').appendChild(li)
+    }
+    addopti("js")
+    addopti("python")
+
+    // edit 
+    const change = document.querySelector("li:nth-child(2)")
+    // change.innerHTML = "c++"
+    const newli = document.createElement('li')
+    newli.textContent = "golang"
+    change.replaceWith(newli)
+
+    // remove 
+    const removeChild =  document.querySelector('li:last-child')
+    removeChild.remove()
+
+</script>
+</html>
