@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DOM</title>
+</head>
+<body>
+    <div>
+      <h1 id="heading" class="first-heading">
+        hi this is gaurav <span style="display: none;">this text is hidden</span>
+      </h1>
+      <p id="para-id" class="para"></p>
+      <h2 id "heading2" class="first-heading">this is h2 </h2>
+      <ul>
+        <li>pear</li>
+        <li>orange</li>
+        <li>apple</li>
+        <li>pineApple</li>
+      </ul>
+    </div>
+    <script>
+      // document.getElementById('heading').innerHTML = "<h1>sid this side</h1>"
+
+      // document.querySelector('h1') 
+
+      // change color into green 
+      // const temp =  document.querySelectorAll('li');
+      // temp.forEach(function(l){
+      //   l.style.backgroundColor =  'green'
+      // })
+    </script>
+</body>
+</html>
+
+<!-- document.getElementById('heading').className //  'heading' -->
+
+<!-- 
+document.getElementById('heading')
+<h1 id=​"heading" class=​"first-heading">​hi this is gaurav​</h1>​
+const first = document.getElementById('heading')
+undefined
+first
+<h1 id=​"heading" class=​"first-heading">​hi this is gaurav​</h1>​
+first.textContent
+'hi this is gaurav'
+first.sty
+undefined
+first.style.backgroundColor = 'green'
+'green'
+first.style.backgroundColor = 'orange'
+'orange'
+first.style.borderrad
+undefined
+first.style.borderRadius = "15px"
+'15px 
+-->
+
+
+<!-- 
+document.querySelector('ul')
+<ul>​<li>​…​</li>​<li>​…​</li>​<li>​…​</li>​<li>​…​</li>​::marker​"pineApple"</li>​</ul>​
+const ul = document.querySelector('ul')
+undefined
+ul.qu
+undefined
+ul.querySelector('li')
+<li>​…​</li>​::marker​"pear"</li>​
+const li1 = ul.querySelector('li')
+undefined
+li1
+<li>​…​</li>​
+li1.style.backgroundColor = 'green'
+'green' 
+-->
+
+<!-- const templist = document.querySelectorAll('li')
+undefined
+templist
+NodeList(4) [li, li, li, li]0: li1: li2: li3: lilength: 4[[Prototype]]: NodeList
+templist[2].style.color =  "green"
+'green'
+templist[2].style.color =  "white"
+'white'
+templist[2].style.color =  "black" -->
