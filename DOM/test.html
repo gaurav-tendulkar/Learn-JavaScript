@@ -1,0 +1,29 @@
+
+const three = document.getElementById('firstHeading')
+undefined
+three
+<h1 id=​"firstHeading" class=​"firstHeading mw-first-heading">​…​</h1>​
+three.style.color = 'orange'
+'orange'
+
+document.querySelectorAll('h1')
+NodeList [h1#firstHeading.firstHeading.mw-first-heading]0: h1#firstHeading.firstHeading.mw-first-headinglength: 1[[Prototype]]: NodeList
+
+document.querySelectorAll('h2')
+NodeList(15) [h2.vector-pinnable-header-label, h2#Background, h2#Objective, h2#Overview, h2#Foreign_reaction_and_involvement, h2#Aftermath, h2#Impact, h2#Long-term_consequences, h2#Military_awards, h2#Civilian_awards, h2#In_media, h2#See_also, h2#References, h2#Further_reading, h2#External_links]0: h2.vector-pinnable-header-label1: h2#Background2: h2#Objective3: h2#Overview4: h2#Foreign_reaction_and_involvement5: h2#Aftermath6: h2#Impact7: h2#Long-term_consequences8: h2#Military_awards9: h2#Civilian_awards10: h2#In_media11: h2#See_also12: h2#References13: h2#Further_reading14: h2#External_linkslength: 15[[Prototype]]: NodeList
+
+
+const all = document.querySelectorAll('h2')
+undefined
+all
+NodeList(15) [h2.vector-pinnable-header-label, h2#Background, h2#Objective, h2#Overview, h2#Foreign_reaction_and_involvement, h2#Aftermath, h2#Impact, h2#Long-term_consequences, h2#Military_awards, h2#Civilian_awards, h2#In_media, h2#See_also, h2#References, h2#Further_reading, h2#External_links]
+
+
+all[1].style.color = 'red'
+'red'
+
+all.forEach(function(l){
+    l.style.color = 'orange'
+    
+})
+undefined
