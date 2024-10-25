@@ -28,3 +28,7 @@ let firstObj = {
 
 console.table(firstObj);
 console.log(firstObj.age);
+
+
+console.log("gaurav"+"Tendulkar");
+
