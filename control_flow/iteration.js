@@ -15,3 +15,4 @@ while ( i < superHero.length) {
   console.log(`the value is ${superHero[i]}`);
   i++;
 }
+
